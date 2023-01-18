@@ -81,17 +81,17 @@ color: black;
     color: rgb(255, 255, 255, 1);
     */
 }
-.address {
-    font-style: normal;
-    text-decoration: none;
-}
-.address-logo {
+.footer-logo {
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: rgb(33, 150, 243);
+}
+.address {
+    font-style: normal;
+    text-decoration: none;
 }
 .address-mail {
     text-decoration-line: underline;
