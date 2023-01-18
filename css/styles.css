@@ -1,6 +1,5 @@
 body {
     font-family: 'Roboto', sans-serif;
-    color: rgba(33, 33, 33, 1);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.14;
@@ -9,6 +8,7 @@ body {
 }
 .header {
     font-size: 14px;
+    color: rgba(33, 33, 33, 1);
     text-decoration: none;
 }
 .header-logo {
@@ -16,9 +16,11 @@ body {
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
+    color: rgb(33, 150, 243);
 }
 .header-linki {
     text-decoration: none;
+    color: rgba(33, 33, 33, 1);
 }
 .header-linki-porfolio {
     color:rgba(33, 150, 243, 1);
@@ -37,6 +39,7 @@ body {
     color: rgb(19, 226, 19);
 }
 .cursor-button, .cursor-button-w {
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.14;
