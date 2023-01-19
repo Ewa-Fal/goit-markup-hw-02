@@ -4,12 +4,10 @@ body {
     font-size: 16px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-decoration: none;
 }
 .header {
     font-size: 14px;
     color: rgba(33, 33, 33, 1);
-    text-decoration: none;
 }
 .header-logo {
     font-family: 'Raleway';
@@ -19,15 +17,18 @@ body {
     color: rgb(33, 150, 243);
 }
 .header-linki {
-    text-decoration: none;
     color: rgba(33, 33, 33, 1);
 }
 .header-linki-porfolio {
     color:rgba(33, 150, 243, 1);
-    text-decoration: none;
 }
 .header-stopka {
     color:rgba(117, 117, 117, 1);
+}
+.header-linki, 
+.header-linki-porfolio, 
+.header-stopka,
+.address-tel {
     text-decoration: none;
 }
 .header .header-stopka:hover,
@@ -41,6 +42,7 @@ body {
 .cursor-button, .cursor-button-w {
     font-family: 'Roboto';
     font-weight: 500;
+    /* musiałam powtórzyć font z 'body' bo inaczej font nie wyświetla się grubszy  ? */
     font-size: 16px;
     line-height: 1.14;
     text-align: center;
@@ -80,7 +82,7 @@ p {
     line-height: 1.71;
     letter-spacing: 0.03em;
 color: black;
-    /*
+    /* tymczasowo dałam czarny kolor bo nie ma tła. Powinien być:
     color: rgb(255, 255, 255, 1);
     */
 }
@@ -94,16 +96,13 @@ color: black;
 }
 .address {
     font-style: normal;
-    text-decoration: none;
 }
 .address-mail {
-    text-decoration-line: underline;
-color: black;
-/*
+    color: black;
+/* kolor zastępczy dopóki nie będzie czarnego tła. Powinien być: 
 color: rgba(255, 255, 255, 0,6);
 */
 }
 .address-tel {
-    text-decoration: none;
     color: black;
 }
