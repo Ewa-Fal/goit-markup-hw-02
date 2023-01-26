@@ -14,6 +14,9 @@ body {
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
+    color: rgba(0, 0, 0, 1);
+}
+.header-logo .blue {
     color: rgb(33, 150, 243);
 }
 .header-stopka {
@@ -89,5 +92,8 @@ color: black;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 1);
+}
+.footer-logo .blue {
     color: rgb(33, 150, 243);
 }
