@@ -4,7 +4,6 @@ body {
 }
 .header {
     font-size: 14px;
-    color: rgba(33, 33, 33, 1);
 }
 .header-logo {
     font-family: 'Raleway';
@@ -13,32 +12,30 @@ body {
     text-decoration: none;
     color: rgb(33, 150, 243);
 }
-.header-linki {
-    color: rgba(33, 33, 33, 1);
-}
-.header-linki-agencja,
-.header-stopka-blue {
-    color:rgba(33, 150, 243, 1);
-}
 .header-stopka {
-    color:rgba(117, 117, 117, 1);
+    color:rgba(117, 117, 117);
 }
 .header-linki, 
 .header-linki-agencja, 
 .header-stopka,
 .header-stopka-blue,
-.address-tel {
+.footer-tel,
+.footer-mail {
     text-decoration: none;
+    color: rgba(33, 33, 33);
 }
 .header .header-stopka:hover,
 .header .header-stopka:focus,
 .header .header-stopka-blue:hover,
 .header .header-stopka-blue:focus,
-.address .address-tel:hover,
-.address .address-tel:focus,
-.address .address-mail:hover,
-.address .address-mail:focus {
-    color: rgb(19, 226, 19);
+.header .header-linki-agencja:hover,
+.header .header-linki-agencja:focus,
+.footer .footer-tel:hover,
+.footer .footer-tel:focus,
+.footer .footer-mail:hover,
+.footer .footer-mail:focus
+ {
+    color:rgba(33, 150, 243);
 }
 .title-button {
     font-family: 'Roboto';
@@ -50,7 +47,7 @@ body {
     color: rgb(255, 255, 255);
     width: 200px;
     height: 50px;
-    background: #2196F3;
+    background: rgb(33, 150, 243);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
@@ -60,19 +57,17 @@ font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
-
 color: rgb(33, 33, 33);
 }
-.txt1
 p {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 1.87;
     letter-spacing: 0.03em;
     color: rgb(117, 117, 117);  
 }
-.address {
-    font-family: 'Roboto';
+.footer {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -89,29 +84,4 @@ color: black;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: rgb(33, 150, 243);
-}
-.txt2 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.18;
-    letter-spacing: 0.03em;
-}
-p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.18;    
-    letter-spacing: 0.03em;    
-    color: rgb(117, 117, 117, 1); 
-}
-.address {
-    font-style: normal;
-}
-.address-mail {
-    color: black;
-/* kolor zastępczy dopóki nie będzie czarnego tła. Powinien być: 
-color: rgba(255, 255, 255, 0,6);
-*/
-}
-.address-tel {
-    color: black;
 }
