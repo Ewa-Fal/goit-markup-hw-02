@@ -75,14 +75,14 @@ p {
     letter-spacing: 0.03em;    
     color: rgb(117, 117, 117); 
 }
-.footer {
+.footer .adres {
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
 color: black;
-    /* tymczasowo dałam czarny kolor bo nie ma tła. Powinno być:
+    /* tymczasowo dałam czarny kolor bo tło będzie w kolejnym zadaniu.Powinno być:
     color: rgb(255, 255, 255, 1);
     */
 }
